@@ -76,9 +76,9 @@ for name in names_of_products_filtered:
     df_correlations = df_correlations.append(df_grouped_product[['star_rating', 'previous_star_ratings', 'all_previous_star_ratings']])
 
 
-    df_grouped_product['sma_stars'] = df_grouped_product['star_rating'].rolling(window=10).mean()
-    df_grouped_product[['star_rating', 'previous_star_ratings']].plot()
-    plt.show()
+    # df_grouped_product['sma_stars'] = df_grouped_product['star_rating'].rolling(window=10).mean()
+    # df_grouped_product[['star_rating', 'previous_star_ratings']].plot()
+    # plt.show()
         
 # Let's fuck around with the data
 
